@@ -181,7 +181,6 @@ void quick_sort(int *r, int high,int low){
             *(r+j) = *(r+i);
             j--;
         }
-        
     }
     *(r+i) = temp;
     quick_sort(r, i-1, low);

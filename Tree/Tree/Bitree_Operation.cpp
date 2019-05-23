@@ -272,7 +272,7 @@ int duYiNodeCount(BiTree T)
     return 0;
 }
 
-//统计二叉树中度为1的结点的个数
+//统计二叉树中度为2的结点的个数
 int duErNodeCount(BiTree T)
 {
     if (T)
